@@ -1,0 +1,81 @@
+.accordion {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.heading
+{
+	background-color:#f2f2f2;
+}
+.accordion-btn {
+	background-color: #f2f2f2;
+	color: #333;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: background-color 0.2s ease-out;
+}
+
+.accordion-btn:hover {
+	background-color: #ddd;
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.panel p {
+	margin-top: 0;
+}
+
+.panel.show {
+	max-height: 500px;
+}
+
+h1, h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+h2 {
+	margin-top: 60px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 20px auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+ul.accordion li:not(:last-child) {
+	border-bottom: 1px solid #ddd;
+}
+.textcenter
+{
+	text-align: center;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+/* 
+* {
+  font-family: Open Sans;
+} */
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
